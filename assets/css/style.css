@@ -166,8 +166,30 @@ header {
         padding: 10px;
     }
 }
-    /*OUR ACTIONS*/
 
-    /*WHERE TO FIND US*/
+/*OUR ACTIONS*/
+.action-h2 {
+    text-align: center;
+}
 
-    /*FOOTER*/
+.action-icons {
+    width: 10%;
+}
+
+.action-icon-can {
+    fill: rgb(12, 127, 97);
+}
+
+.action-icon-water {
+    fill: rgb(0, 140, 255);
+}
+
+.action-icon-food {
+    fill: orange;
+}
+
+
+
+/*WHERE TO FIND US*/
+
+/*FOOTER*/

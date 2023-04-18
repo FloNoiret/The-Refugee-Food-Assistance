@@ -12,7 +12,13 @@ a {
     color: black;
 }
 
+h2 {
+    text-decoration: underline orange;
+}
 
+h3 {
+    text-align: center;
+}
 /*HEADER*/
 
 header {
@@ -172,8 +178,18 @@ header {
     text-align: center;
 }
 
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    text-align: justify;
+}
+
 .action-icons {
     width: 10%;
+    margin: 5%;
 }
 
 .action-icon-can {
@@ -186,6 +202,7 @@ header {
 
 .action-icon-food {
     fill: orange;
+    width: 15%;
 }
 
 

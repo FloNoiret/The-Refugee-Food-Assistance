@@ -18,7 +18,9 @@ h2 {
 
 h3 {
     text-align: center;
+    margin: 2%;
 }
+
 /*HEADER*/
 
 header {
@@ -150,6 +152,7 @@ header {
     border: orange 2px solid;
 }
 
+/*Hero Banner Responsive*/
 @media screen and (min-width: 768px) {
     .hero-banner {
         height: 600px;
@@ -176,6 +179,7 @@ header {
 /*OUR ACTIONS*/
 .action-h2 {
     text-align: center;
+    margin-top: 50px;
 }
 
 .action-container {
@@ -183,17 +187,25 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: justify;
 }
 
+.action-icon-container {
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+}
+
 .action-icons {
-    width: 10%;
-    margin: 5%;
+    width: 100%;
+    height: 100%;
 }
 
 .action-icon-can {
     fill: rgb(12, 127, 97);
+
 }
 
 .action-icon-water {
@@ -202,10 +214,29 @@ header {
 
 .action-icon-food {
     fill: orange;
-    width: 15%;
 }
 
+/*Actions Section Responsive*/
+@media screen and (min-width: 768px) {
+    .action-container {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 20px ;
+    }
 
+    .action-h2 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 80px;
+    }
+
+    .action-icon-container {
+        height: 70px;
+        width: 70px;
+        margin: 30px;
+        margin-top: 40px;
+    }
+}
 
 /*WHERE TO FIND US*/
 

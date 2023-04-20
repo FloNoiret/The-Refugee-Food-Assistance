@@ -227,7 +227,7 @@ a:hover {
     .action-h2 {
         text-align: center;
         margin-top: 50px;
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .action-icon-container {
@@ -323,3 +323,31 @@ a:hover {
 }
 
 /*FOOTER*/
+
+footer {
+    height: 100px;
+    width: 100%;
+}
+
+.social-media {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.social-media svg {
+    height: 25px;
+    padding: 20px;
+
+}
+
+.copyright {
+    font-size: 10px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    
+}

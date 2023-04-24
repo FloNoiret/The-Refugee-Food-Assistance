@@ -12,6 +12,26 @@ a {
     color: black;
 }
 
+h1 {
+    font-size: 200%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(12, 127, 97);
+    margin: 2%;
+    
+}
+
+hr{
+    border: none;
+    border-bottom: solid 2px black;
+    width: 10%;
+    height: 10px;
+    left: 60%;
+    top: -18px;
+    margin: 0;
+    padding: 0;
+}
+
 h2 {
     text-decoration: underline orange;
     text-align: center;
@@ -20,6 +40,16 @@ h2 {
 h3 {
     text-align: center;
     margin: 2%;
+}
+
+button {
+    background-color: rgb(12, 127, 97);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    border: transparent;
+    cursor: pointer;
 }
 
 /*HEADER*/
@@ -141,7 +171,7 @@ a:hover {
 .hero-banner-btn {
     font-size: 16px;
     padding: 5px;
-    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
     background-color: orange;
     border: rgb(12, 127, 97) 2px solid;
     color: white;
@@ -360,8 +390,13 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border-top: 1px green solid;
+    border-bottom: 1px green solid;
 }
 
+
+
+/*EVENTS CARDS*/
 .event-card {
     display: flex;
     position: relative;
@@ -373,20 +408,20 @@ footer {
     margin: 20px;
 }
 
-.event-card img {
-    width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-top: 10px;
-}
-
 .event-card p {
     margin: 0;
     flex-direction: row;
     padding: 10px;
 }
 
-.event-card address { 
+.event-card address {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.event-card img {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
 }

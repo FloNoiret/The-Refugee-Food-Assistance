@@ -349,5 +349,44 @@ footer {
     position: relative;
     width: 100%;
     justify-content: center;
-    
+
+}
+
+
+/*EVENTS PAGE*/
+.events-section {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-shadow: 0px 0px 12px 12px #0000002f;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.782);
+    width: 350px;
+    margin: 20px;
+}
+
+.event-card img {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+}
+
+.event-card p {
+    margin: 0;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.event-card address { 
+    padding-left: 10px;
+    padding-right: 10px;
 }

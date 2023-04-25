@@ -190,6 +190,7 @@ a:hover {
 .hero-banner-btn:hover {
     background-color: rgb(12, 127, 97);
     border: orange 2px solid;
+    color: white;
 }
 
 /*Hero Banner Responsive*/

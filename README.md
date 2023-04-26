@@ -7,4 +7,4 @@ Realisation of an HTML & CSS website for a fictive association that wished :
 3. SEO semantic & meta
 4. Regular Git commit to follow the project construction
 
-See the website online : 
+[See the website online](https://the-refugee-food-assistance.netlify.app)
